@@ -3,43 +3,43 @@ body {
     font-family: "Gill Sans", sans-serif;
   }
   
-  #main {
+#main {
     background-color: #f9ece3;
     border-radius: 10%;
   }
   
-  h1,
-  h3 {
+h1,
+h3 {
     text-align: center;
   }
   
-  #img-div {
+#img-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   
-  #image {
+#image {
     max-width: 300px;
     height: auto;
   }
   
-  #img-caption {
+#img-caption {
     justify-content: center;
     margin-top: 10px;
   }
   
-  #photo-credit {
+#photo-credit {
     font-weight: bold;
     display: inline-block;
   }
   
-  #photo-credit-link:hover {
+#photo-credit-link:hover {
     color: red;
   }
   
-  #abstract {
+#abstract {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     margin-bottom: -40px;
   }
   
-  #tribute-info-title {
+#tribute-info-title {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -56,21 +56,27 @@ body {
     margin-bottom: 10px;
   }
   
-  #tribute-info {
+#tribute-info {
     margin: 3px;
     align-items: center;
     justify-content: center;
     display: flex;
   }
   
-  #tribute-link {
+#tribute-link {
     padding-left: 5px;
   }
   
-  #more-info,
-  #even-more-info {
+#more-info,
+#even-more-info {
     align-items: center;
     justify-content: center;
     display: flex;
   }
   
+.credits {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
