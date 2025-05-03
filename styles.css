@@ -38,45 +38,37 @@ h3 {
 #photo-credit-link:hover {
     color: red;
   }
-  
-#abstract {
+
+
+#abstract, #tribute-info-title, #tribute-info, #more-info,
+#even-more-info {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#abstract {
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: -40px;
   }
   
 #tribute-info-title {
-    align-items: center;
-    justify-content: center;
-    display: flex;
     margin-top: 50px;
     margin-bottom: 10px;
   }
   
 #tribute-info {
     margin: 3px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
   }
   
 #tribute-link {
     padding-left: 5px;
   }
-  
-#more-info,
-#even-more-info {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
+
   
 .credits {
     display: flex; 
     align-items: center;
     justify-content: center;
-
 }
