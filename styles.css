@@ -39,9 +39,8 @@ h3 {
     color: red;
   }
 
-
 #abstract, #tribute-info-title, #tribute-info, #more-info,
-#even-more-info, .credits {
+#even-more-info, #credits {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,3 +64,8 @@ h3 {
 #tribute-link {
     padding-left: 5px;
   }
+
+#linkedin:hover, #reference:hover{
+    color: red;
+  }
+
